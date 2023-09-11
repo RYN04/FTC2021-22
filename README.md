@@ -157,16 +157,3 @@ dirve.followTrajectory(traj2);
 ```
 From traj1.end() add 90 angle turn by putting .plus(newPose2d(0, 0, Math.toRadians(90)));
 
-#### 3. Using Markers to allow other actions (Arm up and down, servo, shooting, etc..)
-
-If you want to move arm and down, or do other stuff, 
-
-you have to add [**Markers**](https://learnroadrunner.com/markers.html#types-of-markers) in the trajectory. 
-If your desired action does not involve encoders, it is okay to put that line of action outside of the trajectory, but if encoders involved, it is neccessary to use markers.
-
-There are two types of Markers in general, 
-
-1. [addDisplacementMarker()](https://learnroadrunner.com/markers.html#displacement-markers-basics)
-
-2. [.addTemporalMarker()](https://learnroadrunner.com/markers.html#types-of-markers)
-
