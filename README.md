@@ -170,4 +170,3 @@ There are two types of Markers in general,
 
 2. [.addTemporalMarker()](https://learnroadrunner.com/markers.html#types-of-markers)
 
-tbc..
