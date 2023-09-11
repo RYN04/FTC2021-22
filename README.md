@@ -1,6 +1,6 @@
 This repository contains codes that are primarily written based on Road runner library.
 
-## The following writings will explain about 
+## The following writing will explain about 
 
 #### (1) PID tuning using RoadRunner, 
 #### (2) setting up Object detection, 
